@@ -1,0 +1,109 @@
+
+header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color:#EAC926;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    
+
+}
+nav{
+    display: none;
+}
+main{
+    background-color: rgb(228, 225, 225);
+    width: 100%;
+    margin:auto;
+    box-sizing: border-box;
+
+
+}
+article{
+    width: 90%;
+    background-color: white;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 10px;
+    border:solid 1px #ebebeb;
+    box-sizing: border-box;
+
+}
+.articulo1{
+    width: auto;
+    margin: 15px;
+    border:solid 10px #ebebeb;
+    box-sizing: border-box;
+
+}
+
+footer{
+    text-align: center;
+
+    box-sizing: border-box;
+
+}
+
+
+.titulares{
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+}
+.descuentos{
+    font-size: 16px;
+    color: green;
+    margin-top: -20px;
+}
+.descripciones{
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+
+.icono{
+    color: blue;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+footer article{
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    
+}
+
+.divcentrado{
+    text-align: center;
+    display: none;
+}
+
+@media (min-width:361px){
+
+    nav{
+        display: block;
+    
+    
+
+    }
+    .divcentrado{
+        display:block
+    }
+    .descripciones{
+        font-size: 16px;
+        margin-bottom: 10px;
+        display: none;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+       
+    }
+}
+@media (min-width:769px){
+
+    .divcentrado{
+        display: none;
+    }
+
+}
+

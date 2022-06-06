@@ -1,13 +1,17 @@
+// CONSTANTES
+
 const express = require("express");
 const app = express();
 const path =require("path");
 
 const publicPath = path.resolve(__dirname, "public");
 
+
+// MIDDELWARE
 app.use(express.static(publicPath));
 
 
-
+// RUTEO
 app.get("/", (req, res)=>{
     res.sendFile(path.join(__dirname, "./views/home.html"));
 })
@@ -40,6 +44,9 @@ app.get("/tiendasOficiales",(req, res)=>{
 app.get("/vender", (req, res)=>{
     res.sendFile(path.resolve(__dirname, "./views/vender.html"));
 })
+
+
+// LEVANTO SERVIDOR
 
 app.listen(3000,()=>{
     console.log("Servidor corriendo en puerto 3000");
