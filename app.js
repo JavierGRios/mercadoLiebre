@@ -19,9 +19,10 @@ app.get("/ayuda",(req, res)=>{
     res.sendFile(path.resolve(__dirname, "./views/ayuda.html"));
 })
 
-app.get("/creaTuCuenta", (req, res)=>{
-    res.send(path.resolve(__dirname, "./views/creaTuCuenta.html"));
+app.get("/creatucuenta", (req, res)=>{
+    res.sendFile(path.resolve(__dirname,"./views/creatucuenta.html"));
 })
+
 
 app.get("/ingresa",(req, res)=>{
     res.sendFile(path.join(__dirname,"./views/ingresa.html"));
