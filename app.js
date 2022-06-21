@@ -19,14 +19,14 @@ app.get("/ayuda",(req, res)=>{
     res.sendFile(path.resolve(__dirname, "./views/ayuda.html"));
 })
 
-app.get("/creatucuenta", (req, res)=>{
-    res.sendFile(path.join(__dirname,"./views/creatucuenta.html"));
+app.get("/register", (req, res)=>{
+    res.sendFile(path.join(__dirname, "./views/register.html"));
 
 })
 
 
-app.get("/ingresa",(req, res)=>{
-    res.sendFile(path.join(__dirname,"./views/ingresa.html"));
+app.get("/login",(req, res)=>{
+    res.sendFile(path.join(__dirname,"./views/login.html"));
 })
 
 app.get("/misCompras",(req, res)=>{
