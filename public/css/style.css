@@ -257,6 +257,8 @@ footer article{
     margin-top: 20px;
     
 
+    
+
 }
 .crear{
     display: block;
@@ -333,7 +335,7 @@ footer article{
 }
 .claves{
 
-    width: 100%;
+    width: 80%;
     border: 1px solid ;
     margin-bottom: 15px;
     padding: 12px 10px;
@@ -341,7 +343,8 @@ footer article{
     background: #ffffff;
     font-size: 16px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin-left: 70px;
 
 }
 .botoningreso{
