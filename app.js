@@ -20,7 +20,7 @@ app.get("/ayuda",(req, res)=>{
 })
 
 app.get("/creatucuenta", (req, res)=>{
-    res.sendFile(path.resolve(__dirname,"./views/creatucuenta.html"));
+    res.sendFile(path.join(__dirname,"./views/creatucuenta.html"));
 })
 
 
