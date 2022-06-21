@@ -249,6 +249,10 @@ footer article{
 
 
 /*Crea Tu cuenta*/
+.main-crea-tu-cuenta{
+    background-color: rgb(231, 231, 227);
+    box-shadow: 7px 13px 37px #000;
+}
 
 .creatucuenta{
 
@@ -310,6 +314,7 @@ footer article{
 
     width: 80%;
     margin: auto;
+    background-color: rgb(170, 143, 143);
     
 
 }
