@@ -108,8 +108,8 @@ header nav ul li a{
 
 
 /*main*/
-div.last-visit,
-div.offers{
+div.visitUlt,
+div.oferta{
     display: flex;
     flex-wrap: wrap;
 }
@@ -213,6 +213,7 @@ footer{
     text-align: center;
     background-color: #ebebeb;
     margin-top: 50px;
+    border-top: #0a63c2 1px solid;
 
 }
 
@@ -225,13 +226,16 @@ footer{
     font-size: 2em;
     margin-bottom: 10px;
     cursor: pointer;
+    margin-top: 15px;
 }
 footer article{
     margin: auto;
     font-size: 16px;
     color: black;
     text-align: center;
+    margin-top: 10px;
     
+   
     
 }
 

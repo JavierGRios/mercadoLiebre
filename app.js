@@ -49,6 +49,14 @@ app.get("/vender", (req, res)=>{
 
 // LEVANTO SERVIDOR
 
-app.listen(3000,()=>{
+/*app.listen(3000,()=>{
     console.log("Servidor corriendo en puerto 3000");
 })
+*/
+
+
+app.set('puerto',process.env.PORT || 3000)
+
+
+
+app.listen(app.get('puerto'), ()=>console.log(`Servidor escuchando en puerto ${app.get('puerto')}`));
